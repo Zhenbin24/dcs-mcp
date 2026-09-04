@@ -1,0 +1,27 @@
+{
+  "name": "DCS Cloud",
+  "name_zh": "DCS Cloud",
+  "name_en": "DCS Cloud",
+  "description": "Bootstrap the dcs CLI (download + auto-update + PAT login), then operate DCS Cloud by running the CLI directly.",
+  "description_zh": "引导 dcs CLI（下载、自动更新、PAT 登录），之后直接执行 CLI 操作 DCS Cloud：项目、任务、工作流、计费、数据文件。用户需在云平台个人中心创建个人访问令牌(PAT)并粘贴到连接器。",
+  "description_en": "Bootstrap the dcs CLI (download, auto-update, PAT login), then run the CLI directly to operate DCS Cloud: projects, tasks, workflows, billing, and data files. Create a Personal Access Token (PAT) in the cloud platform profile page and paste it into the connector.",
+  "source": "dcs-cloud",
+  "type": "mcp",
+  "auth_mode": "token",
+  "minWorkbuddyVersion": "5.0.0",
+  "version": "2.0.2",
+  "examples_zh": [
+    "列出我所有的项目",
+    "查看当前项目和任务列表",
+    "查看任务 W202606130053472 的详情和日志",
+    "取消任务 W202606130053472",
+    "列出 /Files 目录下的数据文件"
+  ],
+  "examples_en": [
+    "List all my projects",
+    "Show current project and task list",
+    "Show details and logs of task W202606130053472",
+    "Cancel task W202606130053472",
+    "List data files under /Files"
+  ]
+}
